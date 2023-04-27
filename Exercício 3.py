@@ -1,0 +1,8 @@
+A = float(input("Digite a nota A "))
+peso1 = float(input("Digite peso de A "))
+B = float(input("Digite a nota B "))
+peso2 = float(input("Digite peso de B "))
+C = float(input("Digite a nota C "))
+peso3 = float(input("Digite peso de C "))
+Media = (A*peso1 + B*peso2 + C*peso3)/(peso1 + peso2 + peso3)
+print("Média =", Media)
