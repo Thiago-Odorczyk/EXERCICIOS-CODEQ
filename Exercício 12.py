@@ -1,0 +1,16 @@
+def countT(lista, T):
+    return lista.count(T)
+print ("(1) o chá branco; (2) chá verde; (3) chá preto; ou (4) chá de ervas")
+T = int(input("Digite o número correspondente ao tipo de chá "))
+lista = []
+A = int(input("Digite a resposta dada pelo competidor A "))
+lista.append(A)
+B = int(input("Digite a resposta dada pelo competidor B "))
+lista.append(B)
+C = int(input("Digite a resposta dada pelo competidor C "))
+lista.append(C)
+D = int(input("Digite a resposta dada pelo competidor D "))
+lista.append(D)
+E = int(input("Digite a resposta dada pelo competidor E "))
+lista.append(E)
+print("Número de concorrentes que obtiveram a resposta correta: %d" % countT(lista, T)) 
